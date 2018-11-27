@@ -1,0 +1,7 @@
+.stowrc
+setup.sh
+\.github
+\.git # contains personal information
+^/README.*
+^/LICENSE.*
+^/.gitignore.*

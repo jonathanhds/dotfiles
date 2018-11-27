@@ -1,0 +1,9 @@
+font-size = 14
+command = /bin/zsh -l
+background-blur-radius = 20
+mouse-hide-while-typing = true
+window-decoration = false
+macos-option-as-alt = true
+theme = Catppuccin Mocha
+window-padding-x = 10
+window-padding-y = 10
