@@ -13,3 +13,7 @@ vim:
 	mkdir -p ~/.config/nvim
 	ln -s $(PWD)/vimrc ~/.config/nvim/init.vim
 	nvim +PlugInstall +qall
+
+tig:
+	rm -rf ~/.tigrc
+	ln -s $(PWD)/tigrc ~/.tigrc
