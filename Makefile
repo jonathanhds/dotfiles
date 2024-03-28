@@ -3,6 +3,7 @@ PWD=`pwd`
 build: tmux vim
 
 tmux:
+	mkdir -p ~/.tmux/plugins
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 2> /dev/null || cd ~/.tmux/plugins/tpm; git pull; cd -;
 	rm -rf ~/.tmux.conf
 	ln -s $(PWD)/tmux.conf ~/.tmux.conf
