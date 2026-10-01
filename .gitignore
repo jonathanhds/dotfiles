@@ -1,2 +1,6 @@
 .DS_Store
 *.log
+tmux/plugins/
+raycast
+fzf
+history.txt
